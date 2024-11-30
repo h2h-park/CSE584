@@ -26,7 +26,7 @@ The selected disciplines are as follows:
 - `Virology`
 
 ## Methodology
-1. **Faulty Questions Generation**: Starting with existing multiple-choice question datasets[MMLU Dataset](https://huggingface.co/datasets/Stevross/mmlu), we removed the correct answers from the choices. 
+1. **Faulty Questions Generation**: Starting with existing multiple-choice question datasets [MMLU Dataset](https://huggingface.co/datasets/Stevross/mmlu), we removed the correct answers from the choices. 
 2. **LLM Evaluation**: These faulty questions were input into the LLM to determine whether it could still output the correct answers.
 3. **Desired Dataset**: Questions where the LLM still output the correct answer despite the faulty setup were categorized as part of the final faulty questions dataset.
 
