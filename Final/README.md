@@ -26,14 +26,14 @@ The selected disciplines are as follows:
 - `Virology`
 
 ## Methodology
-1. **Faulty Questions Generation**: Starting with existing multiple-choice question datasets(MMLU Dataset: https://huggingface.co/datasets/Stevross/mmlu), we removed the correct answers from the choices. 
+1. **Faulty Questions Generation**: Starting with existing multiple-choice question datasets[MMLU Dataset](https://huggingface.co/datasets/Stevross/mmlu), we removed the correct answers from the choices. 
 2. **LLM Evaluation**: These faulty questions were input into the LLM to determine whether it could still output the correct answers.
 3. **Desired Dataset**: Questions where the LLM still output the correct answer despite the faulty setup were categorized as part of the final faulty questions dataset.
 
 ## Dataset Access
 The complete dataset of **900 faulty scientific questions** in **15 disciplines** is publicly available. You can explore the dataset using the following link:
 
-[Faulty Scientific Question Dataset - Google Sheets](https://docs.google.com/spreadsheets/d/15m83rfH7xvT8_nyAe1_D5IdGDN4mhVDlLkLRdPsUiVc/edit?gid=468309192#gid=468309192)
+[Faulty Scientific Question Dataset - Google Sheets](https://docs.google.com/spreadsheets/d/15m83rfH7xvT8_nyAe1_D5IdGDN4mhVDlLkLRdPsUiVc/edit?gid=0#gid=0)
 
 ## Future Directions
 -
