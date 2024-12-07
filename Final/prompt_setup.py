@@ -1,6 +1,6 @@
 import json
 
-# JSON 파일 읽기
+# Load the data
 with open('final_mcq_data.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
