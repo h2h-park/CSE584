@@ -35,5 +35,27 @@ The complete dataset of **900 faulty scientific questions** in **15 disciplines*
 
 [Faulty Scientific Question Dataset - Google Sheets](https://docs.google.com/spreadsheets/d/15m83rfH7xvT8_nyAe1_D5IdGDN4mhVDlLkLRdPsUiVc/edit?gid=0#gid=0)
 
-## Future Directions
--
+## Research Design
+This project evaluates the effectiveness of three distinct prompting strategies in mitigating faulty questions:
+
+1. **Scenario 1: Adding a Hint**  
+   - Adds the sentence: "There may be no right answer" to the prompt.  
+   - **Goal**: Encourage the LLM to consider the possibility of no correct answer.
+
+2. **Scenario 2: Adding an Explicit Option**  
+   - Adds a new option: "None of the above" to the choices.  
+   - **Goal**: Provide a clear and actionable alternative for the LLM.
+
+3. **Scenario 3: In-Context Learning**  
+   - Presents two example questions before the main question: one with a valid answer and one faulty question with no answer.  
+   - **Goal**: Use context to guide the LLM’s reasoning process.
+
+## Report
+You can access the full report here:  
+[CSE584_Final_Project.pdf](./CSE584_Final_Project.pdf)
+
+
+## Tools and Libraries
+- **Programming Language**: Python
+- **Main Libraries**: Hugging Face Transformers, Pandas, NumPy, Matplotlib
+- **LLM**: GPT-4o-mini
